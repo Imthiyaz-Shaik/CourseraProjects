@@ -1,0 +1,49 @@
+.landing-page {
+    width:100%;
+    /* filter: brightness(50%); */
+    background: url("/assets/landing-bg.jpg") center/cover no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+   
+  }
+  
+  .overlay {
+     position: relative;
+    width:90%;
+    color: white;
+    overflow-y:hidden;
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+ background-color: black;
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  .lp1{
+   width:40%
+  }
+  
+  .lp2{
+    width:60%;
+    display: flex;
+    justify-content: start;
+    overflow-wrap: break-word; /* This breaks long words if necessary */
+  word-wrap: break-word; /* Legacy support for older browsers */
+  }
+  
+ 
+
+  .get-started-btn {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    border-radius: 5px;
+  }
+  
